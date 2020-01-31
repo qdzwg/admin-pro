@@ -1,0 +1,35 @@
+/* 页面容器样式 */
+.page-wrapper{
+    .p-top{
+      padding-top:20px;
+    }
+    .tip{
+      color:red;
+      margin-left:10px;
+    }
+    .top-right{
+      margin-right:16px;
+    }
+  }
+  .ivu-modal-wrap{
+    .row-style{
+      display: flex;
+      align-items: center;
+      margin-top:20px;
+      .label-style{
+        box-sizing: border-box;
+        width:80px;
+        text-align:right;
+        padding-right:10px;
+      }
+      .icon-tip{
+        color:red;
+      }
+    }
+    .btn-wrap{
+      justify-content: flex-end;
+      .ml{
+        margin-left:16px;
+      }
+    }
+  }
